@@ -7,6 +7,9 @@ en el control + shift + p  pero le puse git clone y dentro de ese repositorio ab
 
 5 tengo droble folder como python->prectice2020 por que el github folder se
 llama practice2020 y yo ya tenia python folder. Es mejor no crear tanto folder.
+
+6 aprendiendo coveralls
+https://www.youtube.com/watch?v=8Ho5SvCIoBs
 '''
 print("hola")
 print("conejito jjjjjjjjjjjjjjjjjjjjjjj")
