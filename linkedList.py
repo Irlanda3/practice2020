@@ -5,9 +5,7 @@ entonces hay un folder que dice practice2020. cuando abra VS code tengo que fija
 o si no cerrar todo y escojer en que directorio estar
 """
     def __init__(self, value, nextNode=None): #parameters
-        """
-        docstring
-        """
+        
         self.value = value
         self.nextNode = nextNode
         
@@ -27,3 +25,5 @@ while True:
         print ("None")
         break
     currentNode = currentNode.nextNode
+    
+# Simple node class for adding nodes manually
