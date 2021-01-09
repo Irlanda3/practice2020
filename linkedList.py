@@ -25,5 +25,6 @@ while True:
         print ("None")
         break
     currentNode = currentNode.nextNode
+
     
 # Simple node class for adding nodes manually
