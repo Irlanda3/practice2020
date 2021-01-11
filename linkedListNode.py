@@ -24,13 +24,13 @@ class linkedList:
             if currentNode.nextNode is None: # If there is no node after the current node we are at
                 currentNode.nextNode = node # then we are going to make that next node our node
                 break # Y salimos por que pusimos el nodo en el tail
-            currentNode = currentNode.nextNode # If it is not the tail node solo we keep traversing
+            currentNode = currentNode.nextNode # If it is not the tail node solo we keep traversing. Aqui es como actualizar el currentNode
             
     def printLinkedList(self):
         currentNode = self.head
         while currentNode is not None:
             print (currentNode.value, "->")
-            currentNode = currentNode.nextNode
+            currentNode = currentNode.nextNode # Actulizamos el currentNode
         print ("None")
         
         
