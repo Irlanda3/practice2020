@@ -17,7 +17,7 @@ class linkedList:
         if self.head is None: # If we do not have a node in the linked list
             self.head = node # Si el linked list esta vacio entonces el head es igual al nuevo que hemos creado.
             return # Y regresamos
-            
+        
         # If it is not the head node tenemos otro caso entonces. Look out for the head node is and try to find the tail by traversing the linkedlist using the head node
         currentNode = self.head
         while True:
@@ -29,9 +29,9 @@ class linkedList:
     def printLinkedList(self):
         currentNode = self.head
         while currentNode is not None:
-            print (currentNode.value, "->")
+            print(currentNode.value)
             currentNode = currentNode.nextNode # Actulizamos el currentNode
-        print ("None")
+        print("None") 
         
         
         
