@@ -1,0 +1,40 @@
+1.-In the context of databases what does ORM mean?
+Object-relational mapping
+
+2.-Not an exmaple of DBMS?
+Mongodb
+
+3.- Whick option has the test mapping between er model and object oriented design?
+empty sets are like classes. empty's are like objects
+
+4.-which symbol is used for represent empty sets in an er diagram?
+rectangle
+
+5.-which symbol is used for representing attributes in an er diagram?
+the elipse.
+
+Today's class January 25th 2022 Notes
+
+The ER model:
+structure of the data is represented graphically using an entity/ relationship
+diagram(ERD)
+*element types: entities/entity sets, attributes, relationships.
+
+creatly.com to draw E/R model
+ENTITY: An abstraction of some sort, resembles an object in OOP,
+examples-> a movie, a star, a studio.
+
+ENTITY SET: a collection of similar entities, similar to a classs definition in OOP,
+althrough in an entity set we are only interested in the structural aspects of data.
+named using plura; capitalized nouns. Examples: Movies, Stars, Studios. Graphically 
+represented using a rectangle.
+
+ATTRIBUTES: properties if the entities in aan entity set.
+Named using singular non-capitalized nouns. Graphically represented using ellipses.
+
+Feb 3rd 2022. RELATIONAL ALGEBRA(extract information from database)
+
+A way to construct new relations from given relations. Relational algebra is usefull
+to introduce the data-manipulation aspects of the relational model.
+OPERATIONS: set operations, selction and projection, cartesian products and joints,
+renaming.
